@@ -1,0 +1,22 @@
+{
+  "name": "javascript-tooling",
+  "version": "1.0.0",
+  "description": "JavaScript project tools and workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adam-Harte/JavaScript-tooling.git"
+  },
+  "author": "Adam Harte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adam-Harte/JavaScript-tooling/issues"
+  },
+  "homepage": "https://github.com/Adam-Harte/JavaScript-tooling#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
