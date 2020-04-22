@@ -60,5 +60,14 @@
 			want to use e.g. bundling, transpliation, dev servers. Behind the scenes
 			node then uses/runs that config file to do all the tasks such as bundling.
 		</p>
+		<h3>3rd Party Packages with Webpack</h3>
+		<p>
+			When we add dev or prod dependencies to our project and need to use them
+			in code for example a library, we can import the methods, variables etc.
+			that we need from the module by just declaring the library name without a
+			file path. Behind the scenes webpack will detect that no file path has
+			been given and will instead look through the node_modules folder for any
+			packages that match that name.
+		</p>
 	</body>
 </html>

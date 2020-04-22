@@ -20,11 +20,15 @@
 	},
 	"homepage": "https://github.com/Adam-Harte/JavaScript-tooling#readme",
 	"devDependencies": {
+		"clean-webpack-plugin": "^3.0.0",
 		"eslint": "^6.8.0",
 		"eslint-config-airbnb-base": "^14.1.0",
 		"eslint-plugin-import": "^2.20.2",
 		"webpack": "^4.43.0",
 		"webpack-cli": "^3.3.11",
 		"webpack-dev-server": "^3.10.3"
+	},
+	"dependencies": {
+		"lodash": "^4.17.15"
 	}
 }
