@@ -8,6 +8,7 @@ module.exports = {
 		path: path.resolve(__dirname, 'assets', 'scripts'),
 		publicPath: 'assets/scripts/',
 	},
+	devtool: 'inline-source-map',
 	// devServer: {
 	// 	contentBase: './',
 	// },
